@@ -1,13 +1,12 @@
 {
   "name": "gulp-requirejs-updated",
   "description": "Builds projects using require.js's optimizer. Hack of gulp-requirejs with updated dependencies (Especially for useSourceUrl to work)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/vcarluer/gulp-requirejs",
   "repository": "git@github.com:vcarluer/gulp-requirejs.git",
   "author": "Vincent Carluer <vcarluer@gmail.com>",
   "main": "./index.js",
-  "keywords": [
-  ],
+  "keywords": [],
   "dependencies": {
     "gulp-util": "3.0.7",
     "requirejs": "2.1.22",
