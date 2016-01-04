@@ -1,5 +1,6 @@
 #gulp-requirejs
 
+[![Dependency Status](https://david-dm.org/vcarluer/gulp-requirejs.png)](https://david-dm.org/vcarluer/gulp-requirejs)
 ## Information
 
 A small, simply, very easy wrapper around the [require.js optimizer](https://github.com/jrburke/r.js) to work with [gulp.js](https://github.com/gulpjs/gulp).
