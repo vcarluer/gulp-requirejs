@@ -31,7 +31,7 @@ describe('gulp-requirejs', function() {
                 should.exist(output.path);
                 should.exist(output.relative);
                 should.exist(output.contents);
-
+                // fs.writeFileSync("test/result/simple_init.js", output.contents);
                 output.relative.should.equal('simple_init.js');
                 String(output.contents).should.equal(fs.readFileSync('test/expected/simple_init.js', 'utf8'));
                 done();
@@ -63,7 +63,7 @@ describe('gulp-requirejs', function() {
                 should.exist(output.path);
                 should.exist(output.relative);
                 should.exist(output.contents);
-
+                // fs.writeFileSync("test/result/umd_init.js", output.contents);
                 output.relative.should.equal('umd_init.js');
                 String(output.contents).should.equal(fs.readFileSync('test/expected/umd_init.js', 'utf8'));
                 done();
@@ -100,7 +100,7 @@ describe('gulp-requirejs', function() {
                 should.exist(output.path);
                 should.exist(output.relative);
                 should.exist(output.contents);
-
+                // fs.writeFileSync("test/result/complex_init.js", output.contents);
                 output.relative.should.equal('complex_init.js');
                 String(output.contents).should.equal(fs.readFileSync('test/expected/complex_init.js', 'utf8'));
                 done();

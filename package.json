@@ -1,17 +1,17 @@
 {
-  "name": "gulp-requirejs",
-  "description": "Builds projects using require.js's optimizer",
-  "version": "0.1.3",
-  "homepage": "http://github.com/robinthrift/gulp-requirejs",
-  "repository": "git://github.com/robinthrift/gulp-requirejs.git",
-  "author": "Robin Thrift <thrift.d.robin@googlemail.com> (http://webbrickworks.com/)",
+  "name": "gulp-requirejs-updated",
+  "description": "Builds projects using require.js's optimizer. Hack of gulp-requirejs with updated dependencies (Especially for useSourceUrl to work)",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vcarluer/gulp-requirejs",
+  "repository": "git@github.com:vcarluer/gulp-requirejs.git",
+  "author": "Vincent Carluer <vcarluer@gmail.com>",
   "main": "./index.js",
   "keywords": [
   ],
   "dependencies": {
-    "gulp-util": "~2.2.5",
-    "requirejs": "2.1.8",
-    "event-stream": "~3.0.20"
+    "gulp-util": "3.0.7",
+    "requirejs": "2.1.22",
+    "event-stream": "3.3.2"
   },
   "devDependencies": {
     "mocha": "*",

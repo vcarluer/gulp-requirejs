@@ -1,11 +1,9 @@
 #gulp-requirejs
 
-[![Dependency Status](https://david-dm.org/robinthrift/gulp-requirejs.png)](https://david-dm.org/robinthrift/gulp-requirejs)
-[![Build Status](https://travis-ci.org/RobinThrift/gulp-requirejs.png?branch=master)](https://travis-ci.org/RobinThrift/gulp-requirejs)
-
 ## Information
 
-A small, simply, very easy wrapper around the [require.js optimizer](https://github.com/jrburke/r.js) to work with [gulp.js](https://github.com/gulpjs/gulp)
+A small, simply, very easy wrapper around the [require.js optimizer](https://github.com/jrburke/r.js) to work with [gulp.js](https://github.com/gulpjs/gulp).
+This is a hack of gulp-requirejs by Robin Thrift with updated npm dependencies. Especially with last requirejs one for useSourceUrl option to work properly.
 
 <table>
 <tr> 
@@ -51,7 +49,7 @@ gulp.task('requirejsBuild', function() {
         },
         // ... more require.js options
     })
-        .pipe(gulp.dest('./delpoy/')); // pipe it to the output DIR
+        .pipe(gulp.dest('./deploy/')); // pipe it to the output DIR
 });
 ```
 
